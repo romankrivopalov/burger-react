@@ -1,6 +1,7 @@
 
 import { Header } from "./components/Header/Header.jsx";
 import { Navigation } from "./components/Navigation/Navigation.jsx";
+import { Catalog } from "./components/Catalog/Catalog.jsx";
 
 export const App = () => {
   return (
@@ -8,7 +9,7 @@ export const App = () => {
       <Header />
       <main>
         <Navigation />
-        <section></section>
+        <Catalog />
       </main>
       <footer></footer>
     </>
