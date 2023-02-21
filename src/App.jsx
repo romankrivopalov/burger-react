@@ -1,14 +1,13 @@
-import { Container } from "./components/Container/Container.jsx"
-import { Header } from "./components/Header/Header.jsx"
+
+import { Header } from "./components/Header/Header.jsx";
+import { Navigation } from "./components/Navigation/Navigation.jsx";
 
 export const App = () => {
   return (
     <>
-      <Header/>
+      <Header />
       <main>
-        <nav>
-          <Container className="navigation__container"/>
-        </nav>
+        <Navigation />
         <section></section>
       </main>
       <footer></footer>
