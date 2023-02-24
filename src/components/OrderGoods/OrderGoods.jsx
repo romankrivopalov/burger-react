@@ -13,8 +13,7 @@ export const OrderGoods = ({ title, price, image, count, id, weight }) => (
             <p className={style.price}>{price}
                 <span className="currency">&nbsp;₽</span>
             </p>
-
-            <Count count={count} id={id}/>
         </div>
+        <Count count={count} id={id}/>
     </li>
 )
