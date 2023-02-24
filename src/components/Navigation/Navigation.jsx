@@ -23,7 +23,7 @@ export const Navigation = () => {
                             <button className={classNames(
                                 style.button,
                                 activeCategory === i ? style.button_active : '')}
-                                style={{ backgroundImage: `url(${API_URI}${item.image})` }}
+                                style={{ backgroundImage: `url(${API_URI}/${item.image})` }}
                                 onClick={() => { dispatch(changeCategory({indexCategory: i})) }}
                             >
                                 {item.rus}
